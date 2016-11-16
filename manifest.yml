@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: aspnet-hello-world
+  host: aspnet-hello-world
+  disk_quota: 1024M
+  services:
+  - aspnet-hello-world-cloudantNoSQLDB
